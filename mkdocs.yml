@@ -1,19 +1,20 @@
 site_name: Pakolabb
 
 nav:
- - Home: index.md
- - Biografia: chisono.md
+  - Home: index.md
+  - Biografia:
+      - chi sono?: biografia/chisono.md
+      - infanzia: biografia/infanzia.md
 
 theme:
-    name: material
-    features:
-        - navigation.instant
-        - navigation.instant.progress
-        - navigation.instant.preview
-        - navigation.tracking
-        - navigation.tabs
-        - navigation.tabs.sticky
-        - navigation.sections
-        
-    palette:
-        primary: red
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+  palette:
+    primary: red
